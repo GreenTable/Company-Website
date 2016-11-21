@@ -1,9 +1,10 @@
+/* ===== General ===== */
 body{
-  background-color: #E3F2FD;
-  font-family: monospace;
-}
+  background-color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
 
-/* Navbar */
+}
+/* ===== Navbar ===== */
 .navbar-default{
   height: 100px;
   width: 100%;
@@ -56,14 +57,16 @@ body{
   text-transform: uppercase;
   padding-top: 34px;
   padding-bottom: 61px;
+  font-family: monospace;
+
 }
 .navbar-nav>li>a{
   font-size: 18px;
-}
-/* Header Section */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+  font-family: monospace;
 
-.module {
+}
+/* ===== Header Section ===== */
+header {
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -78,9 +81,7 @@ body{
   border-bottom-color: #1E88E5;
   border-bottom-width: 5px;
 }
-
-
-.mid h2 {
+header>h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: white;
@@ -92,11 +93,20 @@ body{
   font-size: 30px;
   transform: translate(-50%, -50%);
 }
-.mid h2>p{
+header>h2>p{
   font-size: 60px;
 }
-
-/* Footer section */
-.footer{
-
+/* ===== Main Section ===== */
+#about{
+  padding: 20px;
 }
+#about-heading{
+  color: #1E88E5;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-color: #1E88E5;
+  border-left-width: 3px;
+}
+
+
+/* ===== Footer section ===== */
