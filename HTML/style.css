@@ -2,9 +2,10 @@
 body{
   background-color: #EFEFEF;
   font-family: 'Roboto', sans-serif;
-
 }
+
 /* ===== Navbar ===== */
+
 .navbar-default{
   height: 100px;
   width: 100%;
@@ -65,7 +66,9 @@ body{
   font-family: monospace;
 
 }
+
 /* ===== Header Section ===== */
+
 header {
   background:
     linear-gradient(
@@ -96,16 +99,31 @@ header>h2 {
 header>h2>p{
   font-size: 60px;
 }
+
 /* ===== Main Section ===== */
-#about{
+#main-section{
   padding: 20px;
+  text-align: center;
 }
-#about-heading{
+
+
+/* ===== About Section ===== */
+
+#about-section{
+  padding: 20px;
+  text-align: center;
+}
+#about-section img{
+  height: 150px;
+  width: 200px;
+}
+.glyphicon{
+  font-size: 100px;
   color: #1E88E5;
   padding: 10px;
-  border-left-style: solid;
-  border-left-color: #1E88E5;
-  border-left-width: 3px;
+}
+p{
+  padding: 10px;
 }
 
 
