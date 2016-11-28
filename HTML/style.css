@@ -2,6 +2,7 @@
 body{
   background-color: #EFEFEF;
   font-family: 'Roboto', sans-serif;
+  height: 2000px;
 }
 
 /* ===== Navbar ===== */
@@ -104,6 +105,8 @@ header>h2>p{
 #main-section{
   padding: 20px;
   text-align: center;
+border-bottom-style: solid;
+border-bottom-width: thin;
 }
 
 
@@ -112,10 +115,16 @@ header>h2>p{
 #about-section{
   padding: 20px;
   text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+
 }
 #about-section img{
   height: 150px;
   width: 200px;
+}
+#about-section>p{
+  text-align: center;
 }
 .glyphicon{
   font-size: 100px;

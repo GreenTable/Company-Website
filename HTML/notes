@@ -1,42 +1,4 @@
-<!-- HTML -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Green Table</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="site header" role="banner" id="masthead">
-      <div class="container">
-        <div class="site branding" id="brand">
-          <h1 class="site-title">
-            <a href="#" rel="Home">Green Table
-              <div>Magnus Næss</div>
-            </a>
-          </h1>
-      </div>
-        <nav class="main-navigation" id="site-navigation">
-          <ul>
-            <li class="megamenu"><a href="#">Contact</a></li>
-            <li class="megamenu"><a href="#">About</a></li>
-            <li class="megamenu"><a href="#">GitHub</a></li>
-          </ul>
-        </nav>
-      </div>
-
-
-    </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
-
-
-<!-- CSS -->
+<!-- Style -->
 body{
   background-color:#f6f6f6;
   font-family: 'Open Sans', sans-serif;
@@ -52,7 +14,7 @@ body{
   background-color: #fff;
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #7FCA70;
+  border-bottom-color: #09B504;
 }
 .container{
   margin-right: auto;
@@ -77,11 +39,12 @@ h1.site-title div, h2.site-title div{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  display: inline-block;
+  float: right;
 }
 #site-navigation>ul>li{
   float: right;
-  display: inline;
+
 }
 #site-navigation>ul>li a{
   display: block;
@@ -91,9 +54,29 @@ h1.site-title div, h2.site-title div{
   text-decoration: none;
   font-size: 20px;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 100%;
-    margin: auto;
 
-}
+
+
+
+<!-- html -->
+<header class="site header" role="banner" id="masthead">
+  <div class="container">
+    <div class="site branding" id="brand">
+      <h1 class="site-title">
+        <a href="#" rel="Home">Green Table
+          <div>Magnus Næss</div>
+        </a>
+      </h1>
+  </div>
+    <nav class="main-navigation" id="site-navigation">
+      <ul>
+        <li class="megamenu"><a href="#">Contact</a></li>
+        <li class="megamenu"><a href="#">About</a></li>
+        <li class="megamenu"><a href="#">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+
+  </div>
+</header>
