@@ -1,0 +1,137 @@
+/* ===== General ===== */
+body{
+  background-color: #DEE1EA;
+  font-family: 'Roboto', 'sans-serif';
+}
+main{
+  padding: 20px;
+}
+/* ===== Navbar ===== */
+
+.navbar-default{
+  height: 100px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #1E88E5;
+  background-color: #fff;
+}
+.navbar-default .navbar-brand{
+  color: #1E88E5;
+}
+.navbar-default .navbar-brand:hover{
+  color: #1E88E5;
+}
+.navbar-default .navbar-brand:visited{
+  color: #1E88E5;
+}
+.navbar-default .navbar-nav>#active>a{
+  color: #1E88E5;
+  background-color: transparent;
+  padding-top: 38px;
+  padding-bottom: 34px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: #1E88E5;
+}
+.navbar-default .navbar-nav>#active>a:hover{
+  color: #1E88E5;
+  background-color: #E3F2FD;
+}
+.navbar-default .navbar-nav>#active>a:visited{
+  color: #1E88E5;
+  background-color: #E3F2FD;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color: #1E88E5;
+  padding-top: 41px;
+  padding-bottom: 34px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #1E88E5;
+  background-color: #E3F2FD;
+}
+.navbar-default .navbar-nav>li>a:visited{
+  color: #1E88E5;
+}
+.navbar-header>a{
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-top: 34px;
+  padding-bottom: 61px;
+  font-family: monospace;
+
+}
+.navbar-nav>li>a{
+  font-size: 18px;
+  font-family: monospace;
+
+}
+
+/* ===== Header Section ===== */
+
+header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(images/header.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 340px;
+  position: relative;
+  border-bottom-style: solid;
+  border-bottom-color: #1E88E5;
+  border-bottom-width: 5px;
+}
+header>h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+header>h2>p{
+  font-size: 60px;
+}
+
+/* ===== Main Section ===== */
+#main-section{
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+}
+#main-section .glyphicon{
+ font-size: 38px;
+ color: #1E88E5;
+}
+#main-section h3{
+  font-size: 38px;
+}
+#glyphicon-main-section{
+  height: 85px;
+  width: 110px;
+}
+#main-section h3{
+  color: #1E88E5;
+  font-size: 32px;
+}
+#main-section iframe{
+  width: 346.66px;
+  height: 160px;
+}
+
+/* ===== About Section ===== */
+
+
+
+/* ===== Footer section ===== */
