@@ -104,34 +104,52 @@ header>h2>p{
 
 /* ===== Main Section ===== */
 #main-section{
+}
+
+/* ===== About Section ===== */
+#about-section{
   padding: 20px;
   padding-top: 50px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
 }
-#main-section .glyphicon{
- font-size: 38px;
- color: #1E88E5;
-}
-#main-section h3{
-  font-size: 38px;
-}
-#glyphicon-main-section{
-  height: 85px;
-  width: 110px;
-}
-#main-section h3{
+#about-section h3{
   color: #1E88E5;
   font-size: 32px;
 }
-#main-section iframe{
+#glyphicon-about-section{
+  height: 85px;
+  width: 110px;
+}
+#about-section iframe{
   width: 346.66px;
   height: 160px;
 }
 
-/* ===== About Section ===== */
+/* ===== News Section ===== */
+#team-section{
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  padding: 20px;
+}
+#team-section h3{
+  color: #1E88E5;
+  font-size: 32px;
+}
+#team-section img{
+  width: 277px;
+  height: 173px;
+  margin-left: -4%;
+}
+#team-section h4{
+  font-size: 24px;
+  color: #1E88E5;
 
-
-
+}
+#team-section p{
+  color: #1E88E5;
+  font-size: 18px;
+}
 /* ===== Footer section ===== */
