@@ -1,19 +1,19 @@
 /* ===== General ===== */
-body{
-  background-color: #EFEFEF;
-  font-family: 'Roboto', sans-serif;
-  height: 2000px;
-}
 
+body{
+  background-color: #DEE1EA;
+  font-family: 'Roboto', 'sans-serif';
+}
+main{
+  padding: 20px;
+}
 /* ===== Navbar ===== */
 
 .navbar-default{
   height: 100px;
   width: 100%;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
-  border-bottom-color: #1E88E5;
   background-color: #fff;
+  border-bottom: 5px solid #1E88E5;
 }
 .navbar-default .navbar-brand{
   color: #1E88E5;
@@ -102,38 +102,78 @@ header>h2>p{
 }
 
 /* ===== Main Section ===== */
-#main-section{
-  padding: 20px;
-  text-align: center;
-border-bottom-style: solid;
-border-bottom-width: thin;
-}
 
+#main-section{
+}
 
 /* ===== About Section ===== */
 
 #about-section{
   padding: 20px;
+  padding-top: 50px;
   text-align: center;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
 }
-#about-section img{
-  height: 150px;
-  width: 200px;
-}
-#about-section>p{
-  text-align: center;
-}
-.glyphicon{
-  font-size: 100px;
+#about-section h3{
   color: #1E88E5;
-  padding: 10px;
+  font-size: 32px;
 }
-p{
-  padding: 10px;
+#glyphicon-about-section{
+  height: 85px;
+  width: 110px;
+
+}
+#about-section iframe{
+  width: 346.66px;
+  height: 160px;
 }
 
 
+/* ===== Team Section ===== */
+
+#team-section{
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  padding: 20px;
+}
+#team-section h3{
+  color: #1E88E5;
+  font-size: 32px;
+}
+#team-section img{
+  width: 277px;
+  height: 173px;
+  margin-left: -4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#team-section h4{
+  font-size: 24px;
+  color: #1E88E5;
+}
+#team-section p{
+  color: #1E88E5;
+  font-size: 18px;
+  border-top: 1px solid #1E88E5;
+  padding-top: 5px;
+}
+
+/* Partner Section */
+
+#partner-section{
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  padding: 20px;
+}
+#partner-section h3{
+  font-size: 32px;
+  color: #1E88E5;
+
+}
+#partner-section img{
+  width: 200px;
+  padding: 10px;
+}
 /* ===== Footer section ===== */
